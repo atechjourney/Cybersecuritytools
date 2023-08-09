@@ -1,0 +1,5 @@
+ARP -> Address Resolution Protocol 
+Meaning: Allows a device to associate its mac address with an IP address on the network. 
+
+DHCP -> Dynamic Host Configuration Protocol
+Meaning: 
