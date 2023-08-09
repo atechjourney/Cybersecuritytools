@@ -27,3 +27,9 @@ Meaning:
 
 HTTP -> HyperText Transfer Protocol
 Meaning: 
+
+CDN -> Content Delivery Networks 
+Meaning:
+
+WAF -> Web Application Firewall
+Meaning: 
