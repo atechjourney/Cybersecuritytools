@@ -19,3 +19,11 @@ Meaning:
 OSPF -> Open Shortest Path First
 Meaning:
 
+DNS -> Domain Name System
+Meaning:
+
+TLD -> Top Level Domain 
+Meaning: 
+
+HTTP -> HyperText Transfer Protocol
+Meaning: 
