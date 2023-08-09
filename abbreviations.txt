@@ -3,3 +3,19 @@ Meaning: Allows a device to associate its mac address with an IP address on the 
 
 DHCP -> Dynamic Host Configuration Protocol
 Meaning: 
+
+OSI -> Open Systems Interconnection 
+Meaning:
+
+GUI -> Graphical User Interface 
+Meaning:
+
+TCP -> Transmission Control Protocol
+Meaning:
+
+UDP -> User Datagram Protocol
+Meaning: 
+
+OSPF -> Open Shortest Path First
+Meaning:
+
