@@ -33,3 +33,20 @@ Meaning:
 
 WAF -> Web Application Firewall
 Meaning: 
+
+IDS -> Intrusion Detection System
+Meaning: a passive monitioring solution for detecting possible malicious activites/patterns, abnormal incidents, and policy violations.
+    NIDS -> Network Intrusion Detection System
+    Meaning: monitors the traffic flow from various areas of the network. The aim is to investigate the traffic on the entire subnet. If a signature is identified, an alert is created
+
+    HIDS -> Host-based Intrusion Detection System 
+    Meaning: monitors the traffic flow from a single endpoint device. The aim is to investigate the traffic on a particular device. If a signature is identified, an alert is created.
+   
+
+IPS -> Intrusion Prevention System 
+Meaning: an active protecting solution for preventing possible malicious activities/patterns, abnormal incidents, and policy violations.
+    NIPS -> Network Intrusion Prevention System
+    Meaning: monitors the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If a signature is identified, the connection is terminated.
+
+    NBA -> Network Behaviour Analysis (Behaviour-based Intrusion Prevention System)
+    Meaning: monitor the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If a signature is identified, the connection is terminated.
