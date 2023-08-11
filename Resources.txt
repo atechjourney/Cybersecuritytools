@@ -1,0 +1,7 @@
+// Here are some useful websites 
+
+Phishtools.com 
+
+app.any.Run -> Interactive Malware Analysis site 
+
+URLScan.io 
