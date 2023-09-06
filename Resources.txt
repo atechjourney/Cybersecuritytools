@@ -6,4 +6,8 @@ app.any.Run -> Interactive Malware Analysis site
 
 URLScan.io 
 
-nmap.org ( this is a network scanner created by Gordon Lyon and released in 1997. It is used to discover hosts and services on a computer network by sending packets and analyzing the responses.)
+nmap.org (This is a network scanner created by Gordon Lyon and released in 1997. It is used to discover hosts and services on a computer network by sending packets and analyzing the responses)
+
+wireshark.org
+
+Virustotal.com
