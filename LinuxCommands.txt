@@ -41,9 +41,12 @@ Both sed and awk are powerful text-processing tools commonly used for log analys
 They are sometimes used interchangeably, but both commands have their use cases and can allow security analysts to manipulate, extract, and transform log data efficiently.
 Using the substitute syntax, sed can replace specific patterns or strings into log entries.
 Note that the backslash character \ is required to "escape" the forward slash in our pattern and tell sed to treat the forward slash as a literal character. 
-Also, note that the sed command does not change the apache.log file directly; instead, it only outputs the modified version of the file to the standard output in the command line. 
+Also, note that the sed command does not change the XXXX.log file directly; instead, it only outputs the modified version of the file to the standard output in the command line. 
 If you want to overwrite the file, you can add the -i option to edit the file in place or use a redirect operator > to save the output to the original or another file.
 Caution: If you use the -i option with sed, you risk overwriting the original file and losing valuable data. Ensure to keep a backup copy!
 
+awk
 
-
+For the awk command, a common use case, is conditional actions based on specific field values. 
+For example, to print log entries where the HTTP response code is greater than or equal to 400 (which would indicate HTTP error statuses), we can use the following command:
+awk '$9 >= 400' XXXX.log
