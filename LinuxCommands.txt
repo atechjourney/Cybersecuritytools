@@ -1,0 +1,3 @@
+// 
+Cat ("concatenate")
+is a simple utility that reads one or more files and displays its content in the terminal. When used for log files, it prints the entire log content to the screen.
