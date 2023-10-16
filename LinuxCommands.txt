@@ -19,3 +19,25 @@ This can help security analysts understand the size and volume of log data they 
 cut
 The cut command extracts specific columns (fields) from files based on specified delimiters. This is a handy command for working with log files that have structured or tab-separated data.
 If we want to extract all of the IP addresses in the file, we can use the cut command to specify a delimiter of a space character and only select the first field returned.
+
+sort
+Sometimes, it's helpful to sort the returned entries chronologically or alphabetically. 
+The sort command arranges the data in files in ascending or descending order based on specific criteria. 
+This can be crucial for identifying patterns, trends, or outliers in our log data. 
+It is also common to combine the output of another command (cut, for example) and use it as the input of the sort command using the pipe | redirection character.
+
+uniq
+The uniq command identifies and removes adjacent duplicate lines from sorted input. In the context of log analysis, this can be a useful tool for simplifying data lists (like collected IP addresses), especially when log entries may contain repeated or redundant information. 
+The uniq command is often combined with the sort command to sort the data before removing the duplicate entries.
+
+Example: 
+cut -d ' ' -f 1 XXXX.log | sort -n -r | uniq -c
+
+We can also append the -c option to output unique lines and prepend the count of occurrences for each line. 
+This can be very useful for quickly determining IP addresses with unusually high traffic.
+
+sed
+Both sed and awk are powerful text-processing tools commonly used for log analysis. 
+They are sometimes used interchangeably, but both commands have their use cases and can allow security analysts to manipulate, extract, and transform log data efficiently.
+Using the substitute syntax, sed can replace specific patterns or strings into log entries.
+
