@@ -1,3 +1,21 @@
-// 
+// Commands for Log Operations 
 Cat ("concatenate")
 is a simple utility that reads one or more files and displays its content in the terminal. When used for log files, it prints the entire log content to the screen.
+
+Less 
+The less command is an improvement over cat when dealing with larger files. It allows you to view the file's data page by page, providing a more convenient way to read through lengthy logs. When using less to open a file, it displays the first page by default, and you can scroll down using the arrow keys or with Page Up and Page Down.
+
+Trail 
+The tail command is specifically designed for viewing the end of files and is very useful for seeing a summary of recently generated events in the case of log files.
+The most common use of tail is coupled with the -f option, which allows you to "follow" the log file in real-time, as it continuously updates the terminal with new log entries as they are generated and written. 
+This is extremely useful when monitoring logs for live events or real-time system behavior.
+By default, tail will only display the last ten lines of the file. However, we can change this with the -n option and specify the number of lines we want to view.
+
+wc
+The wc (word count) command is a simple but powerful utility that can be quite useful for quick analysis and statistics gathering. 
+The output of wc provides information about the number of lines, words, and characters in a log file. 
+This can help security analysts understand the size and volume of log data they are dealing with before diving into a more detailed analysis.
+
+cut
+The cut command extracts specific columns (fields) from files based on specified delimiters. This is a handy command for working with log files that have structured or tab-separated data.
+If we want to extract all of the IP addresses in the file, we can use the cut command to specify a delimiter of a space character and only select the first field returned.
