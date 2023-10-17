@@ -1,4 +1,5 @@
-// Commands for Log Operations 
+// Commands for Log Operations// 
+
 Cat ("concatenate"):
 is a simple utility that reads one or more files and displays its content in the terminal. When used for log files, it prints the entire log content to the screen.
 
@@ -45,13 +46,12 @@ Also, note that the sed command does not change the XXXX.log file directly; inst
 If you want to overwrite the file, you can add the -i option to edit the file in place or use a redirect operator > to save the output to the original or another file.
 Caution: If you use the -i option with sed, you risk overwriting the original file and losing valuable data. Ensure to keep a backup copy!
 
-awk
-
+awk:
 For the awk command, a common use case, is conditional actions based on specific field values. 
 For example, to print log entries where the HTTP response code is greater than or equal to 400 (which would indicate HTTP error statuses), we can use the following command:
 awk '$9 >= 400' XXXX.log
 
-grep
+grep:
 The grep command is a powerful text search tool widely used on UNIX systems and provides exceptional use cases in log analysis. 
 It allows you to search for specific patterns or regular expressions within files or streams of text. 
 Using grep can help analysts quickly identify relevant log entries that match specific criteria, particular resources or keywords, or patterns associated with security incidents.
