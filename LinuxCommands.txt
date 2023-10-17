@@ -50,3 +50,14 @@ awk
 For the awk command, a common use case, is conditional actions based on specific field values. 
 For example, to print log entries where the HTTP response code is greater than or equal to 400 (which would indicate HTTP error statuses), we can use the following command:
 awk '$9 >= 400' XXXX.log
+
+grep
+The grep command is a powerful text search tool widely used on UNIX systems and provides exceptional use cases in log analysis. 
+It allows you to search for specific patterns or regular expressions within files or streams of text. 
+Using grep can help analysts quickly identify relevant log entries that match specific criteria, particular resources or keywords, or patterns associated with security incidents.
+
+we can append the -c option to grep to count the entries matching the search criteria. 
+For example, because only a single line was returned in the above command, appending -c will return "1".
+
+If we wanted to know which line number in the log file relates to the matched entries, we could add the -n option to help quickly locate specific occurrences:
+Lastly, we can invert our command using the -v option only to select lines that do not contain the specified pattern or keyword(s). 
