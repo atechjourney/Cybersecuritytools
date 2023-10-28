@@ -1,7 +1,10 @@
 // Commands for Linux Terminal //
 
 To change working Directory use 
-cd 
+$ cd 
 
 To list the contents of the current Directory use
-ls 
+$ ls 
+
+To Print working Directory use
+$ pwd 
