@@ -1,11 +1,11 @@
-Advanced Queries
+*Advanced Queries*
 
-Different Syntaxes
+*Different Syntaxes*
 KQL (Kibana Query Language)
 
 Lucene Query Syntax
 
-Special Characters
+*Special Characters*
 Certain characters are reserved in ELK queries and must be escaped before usage. Reserved characters in ELK include +, -, =, &&, ||, &, | and !.
 
 For instance, using the + character in a query will result in an error; to escape this character, precede it with a backslash (e.g. \+).
