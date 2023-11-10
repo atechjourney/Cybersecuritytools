@@ -50,3 +50,9 @@ Meaning: an active protecting solution for preventing possible malicious activit
 
     NBA -> Network Behaviour Analysis (Behaviour-based Intrusion Prevention System)
     Meaning: monitor the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If a signature is identified, the connection is terminated.
+
+TPM ->  (Trusted Platform Module)
+Meaning: 
+
+FAR (False Acceptance Rate)
+Meaning: 
